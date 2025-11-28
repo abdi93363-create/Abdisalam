@@ -1,1 +1,44 @@
-/* Denna fil skall innehålla din CSS kod */
+#wrapper {
+    margin: auto;
+    display: grid;
+
+    grid-template-areas: 
+    'nv nv'
+    'hd hd'
+    'mn mn' 
+    ;
+
+    height: 100vh;
+    width: 100%;
+
+    grid-template-rows: 1fr 2fr 3fr;
+
+
+
+
+}
+
+
+
+nav {
+    grid-area: nv;
+    border: black 1px solid;
+}
+
+header {
+    grid-area: hd;
+    border: black 1px solid;
+}
+
+header h1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+font-size: 8vh;
+}
+
+main {
+    grid-area: mn;
+    border: black 1px solid;
+}
