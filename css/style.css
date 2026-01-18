@@ -213,6 +213,8 @@ section {
    object-fit: cover;
    border-radius: 3vh;
    border-width: 1vh;
+   border: black 0.5vh solid;
+   
 }
 
 #secc2 {
