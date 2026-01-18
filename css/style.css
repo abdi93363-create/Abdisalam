@@ -115,7 +115,8 @@ img{
   width: 20vw;
   height: 30vh;
   object-fit: cover;
-  border: black 4px solid;
+  border: rgb(253, 253, 253) 4px solid;
+  border-radius: 2vw;
 }
 
 #sec1, #sec2, #sec3{
@@ -210,6 +211,8 @@ section {
    height: 23vh;
    width: 11vw;
    object-fit: cover;
+   border-radius: 3vh;
+   border-width: 1vh;
 }
 
 #secc2 {
